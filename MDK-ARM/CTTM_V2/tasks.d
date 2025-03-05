@@ -1,0 +1,16 @@
+cttm_v2\tasks.o: ../Middlewares/Third_Party/FreeRTOS/Source/tasks.c
+cttm_v2\tasks.o: C:\Users\AK\AppData\Local\Keil_v5\ARM\ARM_Compiler_5.06u7\Bin\..\include\stdlib.h
+cttm_v2\tasks.o: C:\Users\AK\AppData\Local\Keil_v5\ARM\ARM_Compiler_5.06u7\Bin\..\include\string.h
+cttm_v2\tasks.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h
+cttm_v2\tasks.o: C:\Users\AK\AppData\Local\Keil_v5\ARM\ARM_Compiler_5.06u7\Bin\..\include\stddef.h
+cttm_v2\tasks.o: C:\Users\AK\AppData\Local\Keil_v5\ARM\ARM_Compiler_5.06u7\Bin\..\include\stdint.h
+cttm_v2\tasks.o: ../Core/Inc/FreeRTOSConfig.h
+cttm_v2\tasks.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h
+cttm_v2\tasks.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h
+cttm_v2\tasks.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h
+cttm_v2\tasks.o: ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F/portmacro.h
+cttm_v2\tasks.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h
+cttm_v2\tasks.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/task.h
+cttm_v2\tasks.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/list.h
+cttm_v2\tasks.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/timers.h
+cttm_v2\tasks.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/stack_macros.h

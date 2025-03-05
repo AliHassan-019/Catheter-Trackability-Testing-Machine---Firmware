@@ -1,0 +1,159 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: µVision V5.41.0.0
+Copyright (C) 2024 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: Ali Hassan, Revive Medical Technologies, LIC=JDA0P-MMP1J-INKA7-EVFSZ-8FH85-72ITF
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Professional  Version: 5.41.0.0
+Toolchain Path:  C:\Users\AK\AppData\Local\Keil_v5\ARM\ARM_Compiler_5.06u7\Bin
+C Compiler:      Armcc.exe V5.06 update 7 (build 960)
+Assembler:       Armasm.exe V5.06 update 7 (build 960)
+Linker/Locator:  ArmLink.exe V5.06 update 7 (build 960)
+Library Manager: ArmAr.exe V5.06 update 7 (build 960)
+Hex Converter:   FromElf.exe V5.06 update 7 (build 960)
+CPU DLL:         SARMCM3.DLL V5.41.0.0
+Dialog DLL:      DCM.DLL V1.17.5.0
+Target DLL:      STLink\ST-LINKIII-KEIL_SWO.dll V3.3.0.0
+Dialog DLL:      TCM.DLL V1.56.4.0
+ 
+<h2>Project:</h2>
+G:\GitHub\CTTM\MDK-ARM\CTTM_V2.uvprojx
+Project File Date:  02/26/2025
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 7 (build 960)', folder: 'C:\Users\AK\AppData\Local\Keil_v5\ARM\ARM_Compiler_5.06u7\Bin'
+Build target 'CTTM_V2'
+compiling main.c...
+../Core/Src/main.c(514): warning:  #188-D: enumerated type mixed with another type
+    HAL_GPIO_WritePin(Valve2_GPIO_Port, Valve2_Pin, 1);
+../Core/Src/main.c(516): warning:  #188-D: enumerated type mixed with another type
+    HAL_GPIO_WritePin(Valve2_GPIO_Port, Valve2_Pin, 0);
+../Core/Src/main.c(1106): warning:  #188-D: enumerated type mixed with another type
+        HAL_GPIO_WritePin(Dir_GPIO_Port, Dir_Pin, 1);
+../Core/Src/main.c(1117): warning:  #188-D: enumerated type mixed with another type
+        HAL_GPIO_WritePin(Dir_GPIO_Port, Dir_Pin, 0);
+../Core/Src/main.c(1154): warning:  #188-D: enumerated type mixed with another type
+    *state = NULL;
+../Core/Src/main.c(1178): warning:  #188-D: enumerated type mixed with another type
+      conditional.pstate = NULL;
+../Core/Src/main.c(1190): warning:  #177-D: variable "permission"  was declared but never referenced
+    int permission, process;
+../Core/Src/main.c(1190): warning:  #177-D: variable "process"  was declared but never referenced
+    int permission, process;
+../Core/Src/main.c(1191): warning:  #177-D: variable "operation"  was declared but never referenced
+    char operation[10];
+../Core/Src/main.c(1192): warning:  #177-D: variable "direction"  was declared but never referenced
+    char direction[10];
+../Core/Src/main.c(1194): warning:  #177-D: variable "xspeed"  was declared but never referenced
+    uint8_t xtemp, xforce, xspeed, xdist;
+../Core/Src/main.c(1194): warning:  #177-D: variable "xdist"  was declared but never referenced
+    uint8_t xtemp, xforce, xspeed, xdist;
+../Core/Src/main.c(1486): warning:  #188-D: enumerated type mixed with another type
+    HAL_GPIO_WritePin(Heater_GPIO_Port, Heater_Pin, 1); // Turn off heater
+../Core/Src/main.c(1490): warning:  #188-D: enumerated type mixed with another type
+    HAL_GPIO_WritePin(Heater_GPIO_Port, Heater_Pin, 0); // Turn off heater
+../Core/Src/main.c(1494): warning:  #188-D: enumerated type mixed with another type
+    HAL_GPIO_WritePin(Dir_GPIO_Port, Dir_Pin, 1);
+../Core/Src/main.c(1495): warning:  #188-D: enumerated type mixed with another type
+    HAL_GPIO_WritePin(En_GPIO_Port, En_Pin, 1);
+../Core/Src/main.c(1503): warning:  #188-D: enumerated type mixed with another type
+    HAL_GPIO_WritePin(Dir_GPIO_Port, Dir_Pin, 0);
+../Core/Src/main.c(1504): warning:  #188-D: enumerated type mixed with another type
+    HAL_GPIO_WritePin(En_GPIO_Port, En_Pin, 1);
+../Core/Src/main.c(1516): warning:  #188-D: enumerated type mixed with another type
+    HAL_GPIO_WritePin(Air_Valve_GPIO_Port, Air_Valve_Pin, 0);
+../Core/Src/main.c(1520): warning:  #188-D: enumerated type mixed with another type
+    HAL_GPIO_WritePin(Valve2_GPIO_Port, Valve2_Pin, 1);
+../Core/Src/main.c(1524): warning:  #188-D: enumerated type mixed with another type
+    HAL_GPIO_WritePin(Air_Valve_GPIO_Port, Air_Valve_Pin, 1);
+../Core/Src/main.c(1528): warning:  #188-D: enumerated type mixed with another type
+    HAL_GPIO_WritePin(Valve2_GPIO_Port, Valve2_Pin, 0);
+../Core/Src/main.c(1544): warning:  #188-D: enumerated type mixed with another type
+    HAL_GPIO_WritePin(Heater_GPIO_Port, Heater_Pin, 1);
+../Core/Src/main.c(1545): warning:  #188-D: enumerated type mixed with another type
+    HAL_GPIO_WritePin(GPIOG, GPIO_PIN_14, 1);
+../Core/Src/main.c(1550): warning:  #188-D: enumerated type mixed with another type
+    HAL_GPIO_WritePin(Heater_GPIO_Port, Heater_Pin, 0);
+../Core/Src/main.c(1567): warning:  #188-D: enumerated type mixed with another type
+    HAL_GPIO_WritePin(Pump_In_GPIO_Port, Pump_In_Pin, 0);
+../Core/Src/main.c(1568): warning:  #188-D: enumerated type mixed with another type
+    HAL_GPIO_WritePin(Pump_Out_GPIO_Port, Pump_Out_Pin, 0);
+../Core/Src/main.c(1581): warning:  #188-D: enumerated type mixed with another type
+    HAL_GPIO_WritePin(Heater_GPIO_Port, Heater_Pin, 0); // Turn off heater
+../Core/Src/main.c(1582): warning:  #188-D: enumerated type mixed with another type
+    HAL_GPIO_WritePin(Air_Valve_GPIO_Port, Air_Valve_Pin, 0);
+../Core/Src/main.c(1601): warning:  #188-D: enumerated type mixed with another type
+    HAL_GPIO_WritePin(Air_Valve_GPIO_Port, Air_Valve_Pin, 0);
+../Core/Src/main.c(1618): warning:  #188-D: enumerated type mixed with another type
+      HAL_GPIO_WritePin(Air_Valve_GPIO_Port, Air_Valve_Pin, 0);
+../Core/Src/main.c(1619): warning:  #188-D: enumerated type mixed with another type
+      HAL_GPIO_WritePin(Dir_GPIO_Port, Dir_Pin, 0);
+../Core/Src/main.c(1620): warning:  #188-D: enumerated type mixed with another type
+      HAL_GPIO_WritePin(En_GPIO_Port, En_Pin, 1);
+../Core/Src/main.c(1632): warning:  #188-D: enumerated type mixed with another type
+      HAL_GPIO_WritePin(En_GPIO_Port, En_Pin, 1);
+../Core/Src/main.c(1643): warning:  #188-D: enumerated type mixed with another type
+    HAL_GPIO_WritePin(Air_Valve_GPIO_Port, Air_Valve_Pin, 0);
+../Core/Src/main.c(1644): warning:  #188-D: enumerated type mixed with another type
+    HAL_GPIO_WritePin(Dir_GPIO_Port, Dir_Pin, 1);
+../Core/Src/main.c(1645): warning:  #188-D: enumerated type mixed with another type
+    HAL_GPIO_WritePin(En_GPIO_Port, En_Pin, 1);
+../Core/Src/main.c(1673): warning:  #188-D: enumerated type mixed with another type
+    HAL_GPIO_WritePin(Heater_GPIO_Port, Heater_Pin, 0);
+../Core/Src/main.c(1674): warning:  #188-D: enumerated type mixed with another type
+    HAL_GPIO_WritePin(Air_Valve_GPIO_Port, Air_Valve_Pin, 1);
+../Core/Src/main.c(1675): warning:  #188-D: enumerated type mixed with another type
+    HAL_GPIO_WritePin(Dir_GPIO_Port, Dir_Pin, 1);
+../Core/Src/main.c(1676): warning:  #188-D: enumerated type mixed with another type
+    HAL_GPIO_WritePin(En_GPIO_Port, En_Pin, 1);
+../Core/Src/main.c(1692): warning:  #188-D: enumerated type mixed with another type
+    HAL_GPIO_WritePin(En_GPIO_Port, En_Pin, 0);
+../Core/Src/main.c(1734): warning:  #188-D: enumerated type mixed with another type
+    HAL_GPIO_WritePin(NSS_GPIO_Port, NSS_Pin, 0);
+../Core/Src/main.c(1740): warning:  #188-D: enumerated type mixed with another type
+    HAL_GPIO_WritePin(NSS_GPIO_Port, NSS_Pin, 1);
+../Core/Src/main.c(1802): warning:  #188-D: enumerated type mixed with another type
+    defstate state = NULL;
+../Core/Src/main.c(1832): warning:  #550-D: variable "forceFlag"  was set but never used
+    uint8_t forceFlag = 0;
+../Core/Src/main.c(1833): warning:  #177-D: variable "returningFlag"  was declared but never referenced
+    uint8_t returningFlag = 0;
+../Core/Src/main.c(1894): warning:  #177-D: variable "HYSTERESIS"  was declared but never referenced
+    const int HYSTERESIS = 2; // Degrees Celsius hysteresis to prevent rapid cycling
+../Core/Src/main.c(2047): warning:  #1-D: last line of file ends without a newline
+  #endif /* USE_FULL_ASSERT */
+../Core/Src/main.c: 49 warnings, 0 errors
+linking...
+Program Size: Code=38064 RO-data=1140 RW-data=740 ZI-data=28164  
+FromELF: creating hex file...
+"CTTM_V2\CTTM_V2.axf" - 0 Error(s), 49 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                https://www.keil.com/pack/ARM.CMSIS.6.1.0.pack
+                ARM::CMSIS@6.1.0
+                CMSIS (Common Microcontroller Software Interface Standard)
+   * Component: CORE Version: 6.1.0
+
+Package Vendor: Keil
+                https://www.keil.com/pack/Keil.STM32F4xx_DFP.3.0.0.pack
+                Keil::STM32F4xx_DFP@3.0.0
+                STMicroelectronics STM32F4 Series Device Support
+
+<h2>Collection of Component include folders:</h2>
+  ./RTE/_CTTM_V2
+  C:/Users/AK/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM::CMSIS:CORE@6.1.0
+      Include file:  CMSIS/Core/Include/tz_context.h
+Build Time Elapsed:  00:00:04
+</pre>
+</body>
+</html>
